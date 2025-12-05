@@ -7,8 +7,8 @@ import tkinter as tk
 from tkinter import ttk, messagebox
 import csv
 
-CARTES_FILE = "cartes.csv"
-DONNEES_COMBATS = "combats_joueurs.csv"
+CARTES_FILE = "dataset/cartes.csv"
+DONNEES_COMBATS = "dataset/combats_joueurs.csv"
 
 # ================================================================
 # Charger toutes les cartes depuis cartes.csv
