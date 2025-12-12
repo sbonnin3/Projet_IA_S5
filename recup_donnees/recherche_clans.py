@@ -15,8 +15,8 @@ def load_api_key(path="cle_api.txt"):
 API_KEY = load_api_key()
 BASE_URL = "https://api.clashroyale.com/v1"
 
-OUTPUT_FILE = "dataset/clans_trouves.csv"
-PROGRESS_FILE = "progression/progress.txt"
+OUTPUT_FILE = "../dataset/clans_trouves.csv"
+PROGRESS_FILE = "../progression/progress.txt"
 
 ALPHABET = "0289PYLQGRJCUV"
 

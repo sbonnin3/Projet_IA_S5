@@ -15,9 +15,9 @@ def load_api_key(path="cle_api.txt"):
 API_KEY = load_api_key()
 BASE_URL = "https://api.clashroyale.com/v1"
 
-CLANS_FILE = "dataset/clans_trouves.csv"
-PLAYERS_FILE = "dataset/recherche_joueurs.csv"
-PROGRESS_FILE = "progression/progress_joueurs.txt"
+CLANS_FILE = "../dataset/clans_trouves.csv"
+PLAYERS_FILE = "../dataset/recherche_joueurs.csv"
+PROGRESS_FILE = "../progression/progress_joueurs.txt"
 
 session = requests.Session()
 session.headers.update({
